@@ -55,7 +55,7 @@ export default function Header() {
                         <FontAwesomeIcon className="header-hamburger-bars" icon={faBars}/>
                     </div>
                     <div className="header-logo">
-                        <span>BODERAHMAN👾</span>
+                        <span>BODERAHMAN</span>
                     </div>
                     <div className={ showHeaderOptions ? "header-options show-hamburger-options" : "header-options"}>
                         {getHeaderOptions()}
