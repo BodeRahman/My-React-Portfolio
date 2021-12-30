@@ -1,7 +1,8 @@
 import React,{useEffect} from 'react'
-import ScreenHeading from '../../utilities/ScreenHeading/ScreenHeading'
-import ScrollService from '../../utilities/ScrollService'
-import Animations from '../../utilities/Animations'
+import ScreenHeading from '../../utilities/ScreenHeading/ScreenHeading';
+import ScrollService from '../../utilities/ScrollService';
+import Animations from '../../utilities/Animations';
+import "./AboutMe.css";
 
 export default function AboutMe(props) {
     let fadeInScreenHandler = (screen) => {
@@ -27,7 +28,7 @@ export default function AboutMe(props) {
         }
     }
 
-    const renderHighLight = () => {
+    const renderHighlight = () => {
         return (
             SCREEN_CONSTANTS.highlights.bullets.map((value, i) =>(
                 <div className="highlight" key={i}>
@@ -51,7 +52,7 @@ export default function AboutMe(props) {
                             <div className="highlight-heading">
                                 <span>{SCREEN_CONSTANTS.highlights.heading}</span>
                             </div>
-                            {renderHighLight()}
+                            {renderHighlight()}
                         </div>
                         <div className="about-me-options">
                             <button className="btn primary-btn">
