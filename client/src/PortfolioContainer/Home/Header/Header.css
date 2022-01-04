@@ -8,8 +8,8 @@
 .header-parent{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    height: 100px;
+    justify-content: space-around;
+    height: 100%;
     width: 70%;
     color: var(--white);
 }
