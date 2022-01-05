@@ -8,7 +8,7 @@ export default function Profile() {
             <div className="profile-details">
                 <div className="colz">
                     <div className="colz-icon">
-                    <a href="https://www.github.com/BodeRahman">
+                        <a href="https://www.github.com/BodeRahman">
                         <i className="fa fa-github"></i>
                         </a>
                         <a href="https://www.facebook.com/bleshpurpleez">
